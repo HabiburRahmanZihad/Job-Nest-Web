@@ -1,0 +1,974 @@
+[
+  {
+    "id": "1",
+    "name": "Google Quantum AI",
+    "logo": "https://i.ibb.co/CKq6P2fn/ff6b7eb7c752e3161fe02ec36ede8bbd.png",
+    "location": "Holt, England",
+    "website": "https://quantumai.google/",
+    "industry": "Software Development",
+    "jobs": [
+      {
+        "id": "job-001",
+        "title": "Quantum Algorithm Developer",
+        "bannerImage": "https://i.ibb.co/mrnbPVgG/1.jpg",
+        "location": "San Francisco, CA",
+        "salary": "$150,000 - $200,000",
+        "jobType": "Full-time",
+        "description": "Develop cutting-edge quantum algorithms for optimization problems.",
+        "requirements": [
+          "PhD in Quantum Physics or Computer Science",
+          "Experience with Qiskit or Cirq",
+          "Knowledge of quantum machine learning",
+          "Published research in quantum computing"
+        ]
+      },
+      {
+        "id": "job-002",
+        "title": "Quantum Hardware Engineer",
+        "bannerImage": "https://i.ibb.co/Jw0P8cMG/2.jpg",
+        "location": "San Francisco, CA",
+        "salary": "$130,000 - $180,000",
+        "jobType": "Full-time",
+        "description": "Design and test superconducting quantum processors.",
+        "requirements": [
+          "MS/PhD in Electrical Engineering or Physics",
+          "Experience with cryogenic systems",
+          "Knowledge of superconducting circuits",
+          "Lab experience with quantum devices"
+        ]
+      },
+      {
+        "id": "job-003",
+        "title": "Quantum Software Engineer",
+        "bannerImage": "https://i.ibb.co/jjqR95n/3.jpg",
+        "location": "Remote",
+        "salary": "$120,000 - $160,000",
+        "jobType": "Full-time",
+        "description": "Develop software tools for quantum computing applications.",
+        "requirements": [
+          "3+ years Python experience",
+          "Knowledge of quantum computing principles",
+          "Experience with quantum SDKs",
+          "Strong algorithms background"
+        ]
+      },
+      {
+        "id": "job-004",
+        "title": "Quantum Research Scientist",
+        "bannerImage": "https://i.ibb.co/3yFZBdSW/4.jpg",
+        "location": "San Francisco, CA",
+        "salary": "$140,000 - $190,000",
+        "jobType": "Full-time",
+        "description": "Conduct original research in quantum information science.",
+        "requirements": [
+          "PhD in Physics or related field",
+          "Strong publication record",
+          "Experience with quantum error correction",
+          "Ability to lead research projects"
+        ]
+      },
+      {
+        "id": "job-005",
+        "title": "Quantum Product Manager",
+        "bannerImage": "https://i.ibb.co/GQx9HFQw/5.jpg",
+        "location": "Hybrid (SF/Remote)",
+        "salary": "$130,000 - $170,000",
+        "jobType": "Full-time",
+        "description": "Lead product development for quantum computing services.",
+        "requirements": [
+          "5+ years product management",
+          "Technical background in physics/CS",
+          "Experience with quantum technologies",
+          "MBA or equivalent experience"
+        ]
+      },
+      {
+        "id": "job-006",
+        "title": "Quantum Applications Engineer",
+        "bannerImage": "https://i.ibb.co/xqmZfwQb/6.jpg",
+        "location": "Remote",
+        "salary": "$110,000 - $150,000",
+        "jobType": "Full-time",
+        "description": "Help clients implement quantum solutions.",
+        "requirements": [
+          "Degree in STEM field",
+          "2+ years technical consulting",
+          "Quantum computing knowledge",
+          "Excellent communication skills"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "2",
+    "name": "Neuralink",
+    "logo": "https://i.ibb.co/xqMJDzTM/eb217847286171e69989766a581c9814.png",
+    "location": "Fremont, CA",
+    "website": "https://neuralink.com",
+    "industry": "Neurotechnology",
+    "jobs": [
+      {
+        "id": "job-007",
+        "title": "Neural Interface Engineer",
+        "bannerImage": "https://i.ibb.co/8njQfH3g/7.jpg",
+        "location": "Austin, TX",
+        "salary": "$140,000 - $190,000",
+        "jobType": "Full-time",
+        "description": "Develop next-gen brain-computer interfaces.",
+        "requirements": [
+          "PhD in Biomedical Engineering",
+          "Experience with neural signals",
+          "Knowledge of signal processing",
+          "Published research in neurotech"
+        ]
+      },
+      {
+        "id": "job-008",
+        "title": "Neurosurgeon Researcher",
+        "bannerImage": "https://i.ibb.co/20DWvyJS/8.jpg",
+        "location": "Austin, TX",
+        "salary": "$200,000 - $250,000",
+        "jobType": "Full-time",
+        "description": "Lead clinical research for neural implants.",
+        "requirements": [
+          "MD with neurosurgery residency",
+          "Research experience",
+          "Familiar with medical devices",
+          "Texas medical license"
+        ]
+      },
+      {
+        "id": "job-009",
+        "title": "AI for Neuroscience Researcher",
+        "bannerImage": "https://i.ibb.co/nJXt6sg/9.jpg",
+        "location": "Remote",
+        "salary": "$130,000 - $170,000",
+        "jobType": "Full-time",
+        "description": "Develop AI models for neural data analysis.",
+        "requirements": [
+          "PhD in CS or Neuroscience",
+          "Experience with neural networks",
+          "Published ML research",
+          "Python/PyTorch expertise"
+        ]
+      },
+      {
+        "id": "job-010",
+        "title": "Biomaterials Scientist",
+        "bannerImage": "https://i.ibb.co/8LhD7Dz2/10.jpg",
+        "location": "Austin, TX",
+        "salary": "$120,000 - $160,000",
+        "jobType": "Full-time",
+        "description": "Develop biocompatible materials for implants.",
+        "requirements": [
+          "PhD in Materials Science",
+          "Experience with biomaterials",
+          "Knowledge of FDA regulations",
+          "Lab management skills"
+        ]
+      },
+      {
+        "id": "job-011",
+        "title": "Robotics Engineer",
+        "bannerImage": "https://i.ibb.co/23HK83c3/11.jpg1",
+        "location": "Austin, TX",
+        "salary": "$130,000 - $180,000",
+        "jobType": "Full-time",
+        "description": "Develop robotic systems for surgical implantation.",
+        "requirements": [
+          "MS/PhD in Robotics",
+          "Experience with medical robotics",
+          "ROS expertise",
+          "Mechatronics background"
+        ]
+      },
+      {
+        "id": "job-012",
+        "title": "Neuroethics Specialist",
+        "bannerImage": "https://i.ibb.co/TxSwS1sS/12.jpg",
+        "location": "Remote",
+        "salary": "$100,000 - $140,000",
+        "jobType": "Full-time",
+        "description": "Address ethical implications of neurotechnology.",
+        "requirements": [
+          "PhD in Ethics or Philosophy",
+          "Specialization in neuroethics",
+          "Policy experience",
+          "Excellent writing skills"
+        ]
+      },
+      {
+        "id": "job-013",
+        "title": "Clinical Trial Manager",
+        "bannerImage": "https://i.ibb.co/Qvc8qwVg/13.jpg",
+        "location": "Austin, TX",
+        "salary": "$110,000 - $150,000",
+        "jobType": "Full-time",
+        "description": "Oversee human trials of neural devices.",
+        "requirements": [
+          "5+ years clinical research",
+          "Experience with FDA approvals",
+          "Project management",
+          "Medical device knowledge"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "3",
+    "name": "SpaceX",
+    "logo": "https://www.spacex.com/static/images/share.jpg",
+    "location": "Seattle, WA",
+    "website": "https://www.spacex.com",
+    "industry": "Aerospace",
+    "jobs": [
+      {
+        "id": "job-014",
+        "title": "Aerospace Engineer",
+        "bannerImage": "https://i.ibb.co/8nsVhfxs/14.jpg",
+        "location": "Seattle, WA",
+        "salary": "$110,000 - $150,000",
+        "jobType": "Full-time",
+        "description": "Design next-generation aircraft systems.",
+        "requirements": [
+          "BS/MS in Aerospace Engineering",
+          "3+ years industry experience",
+          "CAD/CAM proficiency",
+          "Knowledge of FAA regulations"
+        ]
+      },
+      {
+        "id": "job-015",
+        "title": "Flight Test Engineer",
+        "bannerImage": "https://i.ibb.co/N20KQJ2B/15.jpg",
+        "location": "Seattle, WA",
+        "salary": "$120,000 - $160,000",
+        "jobType": "Full-time",
+        "description": "Plan and execute aircraft test flights.",
+        "requirements": [
+          "5+ years test experience",
+          "Pilot license preferred",
+          "Data analysis skills",
+          "Risk assessment expertise"
+        ]
+      },
+      {
+        "id": "job-016",
+        "title": "Avionics Software Engineer",
+        "bannerImage": "https://i.ibb.co/9H2vZwDB/16.jpg",
+        "location": "Hybrid (WA/Remote)",
+        "salary": "$130,000 - $170,000",
+        "jobType": "Full-time",
+        "description": "Develop safety-critical flight software.",
+        "requirements": [
+          "Experience with DO-178C",
+          "C/C++ expertise",
+          "RTOS knowledge",
+          "Aerospace background"
+        ]
+      },
+      {
+        "id": "job-017",
+        "title": "Aerospace Materials Scientist",
+        "bannerImage": "https://i.ibb.co/KpYxtsHj/17.jpg",
+        "location": "Seattle, WA",
+        "salary": "$115,000 - $155,000",
+        "jobType": "Full-time",
+        "description": "Develop lightweight composite materials.",
+        "requirements": [
+          "PhD in Materials Science",
+          "Aerospace materials experience",
+          "Lab management skills",
+          "Testing methodology knowledge"
+        ]
+      },
+      {
+        "id": "job-018",
+        "title": "Propulsion Engineer",
+        "bannerImage": "https://i.ibb.co/tw3xBdvb/18.jpg",
+        "location": "Seattle, WA",
+        "salary": "$125,000 - $165,000",
+        "jobType": "Full-time",
+        "description": "Design and test aircraft propulsion systems.",
+        "requirements": [
+          "Thermodynamics expertise",
+          "CFD experience",
+          "Engine design knowledge",
+          "Testing protocol experience"
+        ]
+      },
+      {
+        "id": "job-019",
+        "title": "Aerospace Systems Architect",
+        "bannerImage": "https://i.ibb.co/Kp6Z59mt/19.jpg",
+        "location": "Seattle, WA",
+        "salary": "$140,000 - $190,000",
+        "jobType": "Full-time",
+        "description": "Lead integration of complex aircraft systems.",
+        "requirements": [
+          "10+ years aerospace experience",
+          "Systems engineering background",
+          "MBSE knowledge",
+          "Leadership experience"
+        ]
+      },
+      {
+        "id": "job-020",
+        "title": "Flight Controls Engineer",
+        "bannerImage": "https://i.ibb.co/dJV2VsQw/20.jpg",
+        "location": "Seattle, WA",
+        "salary": "$120,000 - $160,000",
+        "jobType": "Full-time",
+        "description": "Develop and test flight control algorithms.",
+        "requirements": [
+          "Control theory expertise",
+          "MATLAB/Simulink experience",
+          "Aircraft dynamics knowledge",
+          "Testing experience"
+        ]
+      },
+      {
+        "id": "job-021",
+        "title": "Aerospace Project Manager",
+        "bannerImage": "https://i.ibb.co/8Dj2dq4v/21.jpg",
+        "location": "Hybrid (WA/Remote)",
+        "salary": "$130,000 - $170,000",
+        "jobType": "Full-time",
+        "description": "Manage aircraft development programs.",
+        "requirements": [
+          "PMP certification",
+          "5+ years aerospace PM",
+          "Budget management",
+          "Risk assessment skills"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "4",
+    "name": "CRISPR Therapeutics",
+    "logo": "https://crisprtx.com/assets/build/img/logo-main.svg",
+    "location": "Boston, MA",
+    "website": "https://www.crisprtx.com",
+    "industry": "Biotechnology",
+    "jobs": [
+      {
+        "id": "job-022",
+        "title": "CRISPR Researcher",
+        "bannerImage": "https://i.ibb.co/Sw9MNBfH/22.jpg",
+        "location": "Boston, MA",
+        "salary": "$90,000 - $130,000",
+        "jobType": "Full-time",
+        "description": "Develop novel gene editing therapies.",
+        "requirements": [
+          "PhD in Molecular Biology",
+          "CRISPR experience",
+          "Cell culture expertise",
+          "Published research"
+        ]
+      },
+      {
+        "id": "job-023",
+        "title": "Bioinformatics Scientist",
+        "bannerImage": "https://i.ibb.co/FRBychS/23.jpg",
+        "location": "Remote",
+        "salary": "$110,000 - $150,000",
+        "jobType": "Full-time",
+        "description": "Analyze genomic data for therapeutic targets.",
+        "requirements": [
+          "PhD in Bioinformatics",
+          "Python/R expertise",
+          "NGS data analysis",
+          "ML for biology experience"
+        ]
+      },
+      {
+        "id": "job-024",
+        "title": "Process Development Engineer",
+        "bannerImage": "https://i.ibb.co/rGrkvC6X/24.jpg",
+        "location": "Boston, MA",
+        "salary": "$100,000 - $140,000",
+        "jobType": "Full-time",
+        "description": "Scale up gene therapy manufacturing.",
+        "requirements": [
+          "BS/MS in ChemE or BioE",
+          "GMP experience",
+          "Bioreactor knowledge",
+          "Process optimization"
+        ]
+      },
+      {
+        "id": "job-025",
+        "title": "Regulatory Affairs Specialist",
+        "bannerImage": "https://i.ibb.co/prQbgc8D/25.jpg",
+        "location": "Hybrid (MA/Remote)",
+        "salary": "$95,000 - $135,000",
+        "jobType": "Full-time",
+        "description": "Prepare FDA submissions for gene therapies.",
+        "requirements": [
+          "3+ years regulatory experience",
+          "Knowledge of FDA pathways",
+          "Writing skills",
+          "Biotech background"
+        ]
+      },
+      {
+        "id": "job-026",
+        "title": "Clinical Research Associate",
+        "bannerImage": "https://i.ibb.co/1f7bL1Xg/26.jpg",
+        "location": "Boston, MA",
+        "salary": "$85,000 - $120,000",
+        "jobType": "Full-time",
+        "description": "Monitor gene therapy clinical trials.",
+        "requirements": [
+          "RN or life science degree",
+          "2+ years CRA experience",
+          "GCP knowledge",
+          "Travel willingness"
+        ]
+      },
+      {
+        "id": "job-027",
+        "title": "Scientist - Delivery Systems",
+        "bannerImage": "https://i.ibb.co/KcVQ7Zkw/27.jpg",
+        "location": "Boston, MA",
+        "salary": "$105,000 - $145,000",
+        "jobType": "Full-time",
+        "description": "Develop novel delivery methods for gene editing.",
+        "requirements": [
+          "PhD in Nanomedicine",
+          "Lipid nanoparticle experience",
+          "Drug delivery knowledge",
+          "Lab leadership"
+        ]
+      },
+      {
+        "id": "job-028",
+        "title": "Biotech Patent Attorney",
+        "bannerImage": "https://i.ibb.co/FTHVDV2/28.jpg",
+        "location": "Remote",
+        "salary": "$150,000 - $200,000",
+        "jobType": "Full-time",
+        "description": "Protect intellectual property for gene editing tech.",
+        "requirements": [
+          "JD with patent bar",
+          "Technical degree",
+          "3+ years patent experience",
+          "Biotech specialization"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "5",
+    "name": "Amazon",
+    "logo": "https://i.ibb.co/xqJjYVfV/6678968322d6a0f54e5d4dc09ce294f7.png",
+    "location": "Chicago, IL",
+    "website": "https://www.amazon.com",
+    "industry": "E-commerce",
+    "jobs": [
+      {
+        "id": "job-029",
+        "title": "E-commerce Platform Architect",
+        "bannerImage": "https://i.ibb.co/N6tcQxND/29.jpg",
+        "location": "Chicago, IL",
+        "salary": "$140,000 - $180,000",
+        "jobType": "Full-time",
+        "description": "Design scalable e-commerce infrastructure.",
+        "requirements": [
+          "10+ years backend experience",
+          "Microservices expertise",
+          "Cloud architecture",
+          "High-volume systems"
+        ]
+      },
+      {
+        "id": "job-030",
+        "title": "AI Personalization Engineer",
+        "bannerImage": "https://i.ibb.co/6cQKpzPy/30.jpg",
+        "location": "Remote",
+        "salary": "$130,000 - $170,000",
+        "jobType": "Full-time",
+        "description": "Develop recommendation algorithms.",
+        "requirements": [
+          "ML/NLP experience",
+          "Python expertise",
+          "Recommendation systems",
+          "Data pipeline knowledge"
+        ]
+      },
+      {
+        "id": "job-031",
+        "title": "Supply Chain Optimization",
+        "bannerImage": "https://i.ibb.co/6Rh6hVsC/31.jpg",
+        "location": "Chicago, IL",
+        "salary": "$120,000 - $160,000",
+        "jobType": "Full-time",
+        "description": "Optimize logistics and inventory systems.",
+        "requirements": [
+          "Operations research",
+          "Linear programming",
+          "Supply chain experience",
+          "Analytics skills"
+        ]
+      },
+      {
+        "id": "job-032",
+        "title": "Mobile Commerce Developer",
+        "bannerImage": "https://i.ibb.co/Fk2YY9tv/32.jpg",
+        "location": "Remote",
+        "salary": "$110,000 - $150,000",
+        "jobType": "Full-time",
+        "description": "Build shopping apps for iOS/Android.",
+        "requirements": [
+          "React Native",
+          "Mobile payment APIs",
+          "App store experience",
+          "UX sensibilities"
+        ]
+      },
+      {
+        "id": "job-033",
+        "title": "Retail Data Scientist",
+        "bannerImage": "https://i.ibb.co/1G5vY0bm/33.jpg",
+        "location": "Chicago, IL",
+        "salary": "$125,000 - $165,000",
+        "jobType": "Full-time",
+        "description": "Analyze customer behavior data.",
+        "requirements": [
+          "SQL/Python/R",
+          "Customer segmentation",
+          "Predictive modeling",
+          "AB testing"
+        ]
+      },
+      {
+        "id": "job-034",
+        "title": "AR Shopping Developer",
+        "bannerImage": "https://i.ibb.co/Mx6my2Q0/34.jpg",
+        "location": "Remote",
+        "salary": "$115,000 - $155,000",
+        "jobType": "Full-time",
+        "description": "Create augmented reality shopping experiences.",
+        "requirements": [
+          "Unity/Unreal",
+          "3D modeling",
+          "AR frameworks",
+          "Portfolio required"
+        ]
+      },
+      {
+        "id": "job-035",
+        "title": "Marketplace Trust & Safety",
+        "bannerImage": "https://i.ibb.co/kgmywj8J/35.jpg",
+        "location": "Chicago, IL",
+        "salary": "$100,000 - $140,000",
+        "jobType": "Full-time",
+        "description": "Develop systems to detect fraudulent activity.",
+        "requirements": [
+          "Fraud detection",
+          "Risk modeling",
+          "Analytical skills",
+          "E-commerce experience"
+        ]
+      },
+      {
+        "id": "job-036",
+        "title": "Retail UX Researcher",
+        "bannerImage": "https://i.ibb.co/s9YsMY5G/36.jpg",
+        "location": "Hybrid (IL/Remote)",
+        "salary": "$95,000 - $135,000",
+        "jobType": "Full-time",
+        "description": "Study and improve digital shopping experiences.",
+        "requirements": [
+          "User research",
+          "Usability testing",
+          "Quantitative analysis",
+          "Retail background"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "6",
+    "name": "Tesla Robotics",
+    "logo": "https://i.ibb.co/3y3b9GWt/38065abbe200f7742275c0c97eadd426.png",
+    "location": "Houston, TX",
+    "website": "https://www.tesla.com/ai",
+    "industry": "Marine Technology",
+    "jobs": [
+      {
+        "id": "job-037",
+        "title": "ROV Engineer",
+        "bannerImage": "https://i.ibb.co/KjmZjNZ7/37.jpg",
+        "location": "Houston, TX",
+        "salary": "$110,000 - $150,000",
+        "jobType": "Full-time",
+        "description": "Design remotely operated underwater vehicles.",
+        "requirements": [
+          "Mechanical/Electrical Eng",
+          "Underwater systems",
+          "Pressure vessel design",
+          "ROV piloting"
+        ]
+      },
+      {
+        "id": "job-038",
+        "title": "Marine Robotics AI",
+        "bannerImage": "https://i.ibb.co/bRDgHY5X/38.jpg",
+        "location": "Remote",
+        "salary": "$120,000 - $160,000",
+        "jobType": "Full-time",
+        "description": "Develop autonomy for underwater drones.",
+        "requirements": [
+          "Computer vision",
+          "Reinforcement learning",
+          "Sensor fusion",
+          "Marine applications"
+        ]
+      },
+      {
+        "id": "job-039",
+        "title": "Oceanographic Sensor",
+        "bannerImage": "https://i.ibb.co/dJsC0zFR/39.jpg",
+        "location": "Houston, TX",
+        "salary": "$105,000 - $145,000",
+        "jobType": "Full-time",
+        "description": "Develop sensors for marine data collection.",
+        "requirements": [
+          "Sensor development",
+          "Signal processing",
+          "Marine environment",
+          "Data calibration"
+        ]
+      },
+      {
+        "id": "job-040",
+        "title": "Subsea Power Systems",
+        "bannerImage": "https://i.ibb.co/rRX7GM4p/40.jpg",
+        "location": "Houston, TX",
+        "salary": "$115,000 - $155,000",
+        "jobType": "Full-time",
+        "description": "Design power systems for underwater operations.",
+        "requirements": [
+          "Electrical engineering",
+          "Underwater power",
+          "Battery systems",
+          "Corrosion prevention"
+        ]
+      },
+      {
+        "id": "job-041",
+        "title": "Marine Data Scientist",
+        "bannerImage": "https://i.ibb.co/Z6QBbz7c/41.jpg",
+        "location": "Remote",
+        "salary": "$100,000 - $140,000",
+        "jobType": "Full-time",
+        "description": "Analyze oceanographic data from robotic platforms.",
+        "requirements": [
+          "Oceanography background",
+          "Data visualization",
+          "Python/R",
+          "GIS experience"
+        ]
+      },
+      {
+        "id": "job-042",
+        "title": "Underwater Acoustics",
+        "bannerImage": "https://i.ibb.co/9PPsB3s/42.jpg",
+        "location": "Houston, TX",
+        "salary": "$125,000 - $165,000",
+        "jobType": "Full-time",
+        "description": "Develop sonar and communication systems.",
+        "requirements": [
+          "Acoustics expertise",
+          "Signal processing",
+          "Sonar experience",
+          "Underwater comms"
+        ]
+      },
+      {
+        "id": "job-043",
+        "title": "Marine Operations",
+        "bannerImage": "https://i.ibb.co/ynLMbJ6j/43.jpg",
+        "location": "Houston, TX",
+        "salary": "$90,000 - $130,000",
+        "jobType": "Full-time",
+        "description": "Manage field deployments of marine robots.",
+        "requirements": [
+          "Marine operations",
+          "Project management",
+          "Vessel experience",
+          "Safety protocols"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "7",
+    "name": "Microsoft Security",
+    "logo": "https://www.microsoft.com/favicon.ico",
+    "location": "Washington, DC",
+    "website": "https://www.microsoft.com/security",
+    "industry": "Cybersecurity",
+    "jobs": [
+      {
+        "id": "job-044",
+        "title": "Threat Intelligence",
+        "bannerImage": "https://i.ibb.co/Y7smFQH5/44.jpg",
+        "location": "Remote",
+        "salary": "$130,000 - $170,000",
+        "jobType": "Full-time",
+        "description": "Analyze emerging cyber threats.",
+        "requirements": [
+          "OSINT experience",
+          "Malware analysis",
+          "Threat hunting",
+          "Clearance preferred"
+        ]
+      },
+      {
+        "id": "job-045",
+        "title": "Red Team Lead",
+        "bannerImage": "https://i.ibb.co/LXvWB2wB/45.jpg",
+        "location": "DC or Remote",
+        "salary": "$150,000 - $200,000",
+        "jobType": "Full-time",
+        "description": "Lead penetration testing operations.",
+        "requirements": [
+          "5+ years pentesting",
+          "CISSP/OSCP",
+          "Team leadership",
+          "Advanced exploits"
+        ]
+      },
+      {
+        "id": "job-046",
+        "title": "Secure Code Architect",
+        "bannerImage": "https://i.ibb.co/nq1HFSSf/46.jpg",
+        "location": "Remote",
+        "salary": "$140,000 - $180,000",
+        "jobType": "Full-time",
+        "description": "Design secure development frameworks.",
+        "requirements": [
+          "10+ years dev experience",
+          "Security architecture",
+          "DevSecOps",
+          "Multiple languages"
+        ]
+      },
+      {
+        "id": "job-047",
+        "title": "CISO Advisory",
+        "bannerImage": "https://i.ibb.co/B53GF2Vt/47.jpg",
+        "location": "DC or Remote",
+        "salary": "$160,000 - $210,000",
+        "jobType": "Full-time",
+        "description": "Advise executives on security strategy.",
+        "requirements": [
+          "Former CISO experience",
+          "Risk management",
+          "Compliance expertise",
+          "Board presentation"
+        ]
+      },
+      {
+        "id": "job-048",
+        "title": "Quantum Cryptography",
+        "bannerImage": "https://i.ibb.co/BK5kKh8Q/48.jpg",
+        "location": "DC or Remote",
+        "salary": "$145,000 - $190,000",
+        "jobType": "Full-time",
+        "description": "Develop post-quantum encryption.",
+        "requirements": [
+          "Cryptography PhD",
+          "Quantum computing",
+          "Algorithm design",
+          "Security proofs"
+        ]
+      },
+      {
+        "id": "job-049",
+        "title": "ICS Security",
+        "bannerImage": "https://i.ibb.co/JR2J6NqP/49.jpg",
+        "location": "DC or Remote",
+        "salary": "$135,000 - $175,000",
+        "jobType": "Full-time",
+        "description": "Secure industrial control systems.",
+        "requirements": [
+          "SCADA experience",
+          "OT security",
+          "Critical infrastructure",
+          "Protocol analysis"
+        ]
+      },
+      {
+        "id": "job-050",
+        "title": "Security Awareness",
+        "bannerImage": "https://i.ibb.co/QvGG5g3x/50.jpg",
+        "location": "Remote",
+        "salary": "$95,000 - $135,000",
+        "jobType": "Full-time",
+        "description": "Develop security training programs.",
+        "requirements": [
+          "Instructional design",
+          "Security fundamentals",
+          "Engaging content",
+          "Metrics analysis"
+        ]
+      },
+      {
+        "id": "job-051",
+        "title": "Incident Response",
+        "bannerImage": "https://i.ibb.co/CpN8N85v/51.jpg",
+        "location": "DC or Remote",
+        "salary": "$125,000 - $165,000",
+        "jobType": "Full-time",
+        "description": "Lead breach investigations.",
+        "requirements": [
+          "Forensics experience",
+          "Malware analysis",
+          "Chain of custody",
+          "Court testimony"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "8",
+    "name": "John Deere Tech",
+    "logo": "https://i.ibb.co/gMSVnPvp/841142b49b81337104d22308c3373f18.jpg",
+    "location": "Des Moines, IA",
+    "website": "https://www.deere.com",
+    "industry": "Agricultural Technology",
+    "jobs": [
+      {
+        "id": "job-052",
+        "title": "Precision Ag Engineer",
+        "bannerImage": "https://i.ibb.co/G4V76tcD/52.jpg",
+        "location": "IA or Remote",
+        "salary": "$100,000 - $140,000",
+        "jobType": "Full-time",
+        "description": "Develop sensors and systems for precision farming.",
+        "requirements": [
+          "Agtech experience",
+          "IoT devices",
+          "Field testing",
+          "Data integration"
+        ]
+      },
+      {
+        "id": "job-053",
+        "title": "Plant Geneticist",
+        "bannerImage": "https://i.ibb.co/5g8MxbJd/53.jpg",
+        "location": "Des Moines, IA",
+        "salary": "$110,000 - $150,000",
+        "jobType": "Full-time",
+        "description": "Develop drought-resistant crops.",
+        "requirements": [
+          "PhD in Genetics",
+          "CRISPR experience",
+          "Field trials",
+          "Published research"
+        ]
+      },
+      {
+        "id": "job-054",
+        "title": "Farm Robotics",
+        "bannerImage": "https://i.ibb.co/jkV479Tp/54.jpg",
+        "location": "Des Moines, IA",
+        "salary": "$115,000 - $155,000",
+        "jobType": "Full-time",
+        "description": "Develop autonomous farming equipment.",
+        "requirements": [
+          "Robotics experience",
+          "Computer vision",
+          "Agricultural knowledge",
+          "Hardware prototyping"
+        ]
+      },
+      {
+        "id": "job-055",
+        "title": "Ag Data Scientist",
+        "bannerImage": "https://i.ibb.co/KpnhcVh9/55.jpg",
+        "location": "Remote",
+        "salary": "$105,000 - $145,000",
+        "jobType": "Full-time",
+        "description": "Analyze crop and soil data.",
+        "requirements": [
+          "Geospatial analysis",
+          "Python/R",
+          "Satellite imagery",
+          "Yield modeling"
+        ]
+      },
+      {
+        "id": "job-056",
+        "title": "Vertical Farming",
+        "bannerImage": "https://i.ibb.co/Gvpfzm3C/56.jpg",
+        "location": "Des Moines, IA",
+        "salary": "$95,000 - $135,000",
+        "jobType": "Full-time",
+        "description": "Design controlled environment agriculture.",
+        "requirements": [
+          "Hydroponics/aeroponics",
+          "LED lighting",
+          "Climate control",
+          "Urban farming"
+        ]
+      },
+      {
+        "id": "job-057",
+        "title": "Ag Supply Chain",
+        "bannerImage": "https://i.ibb.co/jPYYQFFj/57.jpg",
+        "location": "IA or Remote",
+        "salary": "$90,000 - $130,000",
+        "jobType": "Full-time",
+        "description": "Optimize farm-to-market logistics.",
+        "requirements": [
+          "Perishable goods",
+          "Logistics optimization",
+          "Blockchain interest",
+          "Farm connections"
+        ]
+      },
+      {
+        "id": "job-058",
+        "title": "Regenerative Ag",
+        "bannerImage": "https://i.ibb.co/NdCkF57f/58.jpg",
+        "location": "Des Moines, IA",
+        "salary": "$85,000 - $125,000",
+        "jobType": "Full-time",
+        "description": "Develop sustainable farming practices.",
+        "requirements": [
+          "Soil science",
+          "Carbon sequestration",
+          "Sustainable practices",
+          "Farmer outreach"
+        ]
+      },
+      {
+        "id": "job-059",
+        "title": "AgriFinance",
+        "bannerImage": "https://i.ibb.co/xKWzfVkG/59.jpg",
+        "location": "Remote",
+        "salary": "$120,000 - $160,000",
+        "jobType": "Full-time",
+        "description": "Develop financial products for farmers.",
+        "requirements": [
+          "Agricultural finance",
+          "Risk modeling",
+          "Insurance products",
+          "Farm economics"
+        ]
+      }
+    ]
+  }
+]
