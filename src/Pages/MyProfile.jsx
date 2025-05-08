@@ -4,6 +4,7 @@ import { AuthContext } from '../Provider/AuthContext';
 import { Link, useNavigate } from 'react-router'; // Added missing import
 import { Helmet } from 'react-helmet-async';
 import { FaArrowRight } from 'react-icons/fa6';
+import toast from 'react-hot-toast';
 
 const MyProfile = () => {
     const { signOutUser, user, loading } = useContext(AuthContext);
@@ -31,7 +32,7 @@ const MyProfile = () => {
             await signOutUser();
             navigate('/'); // Navigate to home after logout
         } catch (error) {
-            console.error("Error signing out:", error);
+            toast.error("Error signing out:", error);
         }
     };
 

@@ -360,7 +360,7 @@ const SignIn = () => {
                                         ref={googleButtonRef}
                                         type="button"
                                         onClick={() => handleSocialSignIn(loginGoogle)}
-                                        className="btn bg-white text-black w-full border-[#e5e5e5] animated-button"
+                                        className="btn bg-cyan-500 text-white w-full border-[#e5e5e5] animated-button"
                                         style={{ opacity: 0, transform: 'translateY(20px)' }}
                                     >
                                         <FaGoogle size={20} /> Login with Google

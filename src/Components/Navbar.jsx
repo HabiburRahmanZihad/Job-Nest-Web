@@ -3,9 +3,11 @@ import { Link, NavLink } from 'react-router'; // Fixed: Changed from react-route
 import title from '../assets/logoTitle.png';
 import { Menu, LogIn, UserPlus } from 'lucide-react';
 import { AuthContext } from '../Provider/AuthContext';
+import { RiLogoutBoxLine } from 'react-icons/ri';
+import toast from 'react-hot-toast';
 
 const Navbar = () => {
-    const { user } = useContext(AuthContext);
+    const { user, signOutUser } = useContext(AuthContext);
 
     const photoURL =
         user?.photoURL || user?.providerData?.[0]?.photoURL || 'https://img.daisyui.com/images/profile/demo/yellingcat@192.webp';
@@ -14,7 +16,7 @@ const Navbar = () => {
         <>
             <NavLink to="/" end>
                 {({ isActive }) => (
-                    <p className={`btn border-0 w-full px-4 py-2 rounded-md transition hover:bg-cyan-500 hover:text-white ${isActive ? 'bg-cyan-500 text-white' : ''}`}>
+                    <p className={`btn w-full px-4 py-2 rounded-md transition hover:bg-cyan-500 hover:text-white ${isActive ? 'bg-cyan-500 text-white' : ''}`}>
                         Home
                     </p>
                 )}
@@ -22,13 +24,25 @@ const Navbar = () => {
 
             <NavLink to="/about" end>
                 {({ isActive }) => (
-                    <p className={`btn border-0 w-full px-4 py-2 rounded-md transition hover:bg-cyan-500 hover:text-white ${isActive ? 'bg-cyan-500 text-white' : ''}`}>
+                    <p className={`btn w-full px-4 py-2 rounded-md transition hover:bg-cyan-500 hover:text-white ${isActive ? 'bg-cyan-500 text-white' : ''}`}>
                         About
                     </p>
                 )}
             </NavLink>
         </>
     );
+
+    const handleLogout = () => {
+        // Handle logout logic here, e.g., call a logout function from AuthContext
+        signOutUser()
+            .then(() => {
+                toast.error('User Logged Out Successfully');
+            })
+            .catch(error => {
+                toast.error(error.message);
+            })
+    }
+
 
     return (
         <div className="navbar shadow-sm">
@@ -71,9 +85,12 @@ const Navbar = () => {
                         </NavLink>
                     </>
                 ) : (
-                    <Link to="/profile" className="flex items-center">
-                        <img className="w-11 h-11 rounded-full object-cover" src={photoURL} alt="User profile" />
-                    </Link>
+                    <>
+                        <Link to="/profile" className="flex items-center">
+                            <img className="w-11 h-11 rounded-full object-cover" src={photoURL} alt="User profile" />
+                        </Link>
+                        <button onClick={handleLogout} className='btn text-white  bg-amber-500 hover:bg-cyan-500 rounded-md'>Logout<RiLogoutBoxLine size={20} /></button>
+                    </>
                 )}
             </div>
         </div>

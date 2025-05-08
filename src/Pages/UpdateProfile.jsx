@@ -41,7 +41,7 @@ const UpdateProfile = () => {
                 window.location.href = '/profile'; // Redirect to My Profile page
             })
             .catch((error) => {
-                console.error('Error updating profile:', error);
+                toast.error('Error updating profile:', error);
             });
     };
 

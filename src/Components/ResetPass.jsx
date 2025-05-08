@@ -56,7 +56,7 @@ const ResetPass = () => {
                             required
                         />
 
-                        <button type="submit" className="btn btn-primary w-full">
+                        <button type="submit" className="btn bg-cyan-500 text-white w-full">
                             Send Reset Link
                         </button>
 
